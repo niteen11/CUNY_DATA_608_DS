@@ -10,7 +10,7 @@
     <script type="text/javascript" src="https://cdn.rawgit.com/novus/nvd3/v1.7.1/build/nv.d3.min.js"></script>
 </head>
 
-<body>
+<body onload="loadData()">
 <h1>Assignment 5 </h1>>
 <h1>CUNY MSDS DATA 608</h1>
 
@@ -49,6 +49,25 @@
     <!-- functions to print a table from input -->
     <script type="text/javascript" src="script2.js"></script>
 </div>
+
+<div>
+    <h2>Part 2</h2>
+    <h3>Write a function to load the presidents.csv data and display the data as an html table.
+        Write a function that will return that president’s height & weight when you type it in.
+        This can be typed into either an input box or an alert box, and then print the result in a box or on the web
+        page.</h3>
+
+    <!-- Input form-->
+    <label for="presidentSearch">Search President Name for Height and Weight: </label>
+    <input type="search" class="form-control" id="presidentSearch" placeholder="Type the name of President">
+
+    <div id="datatable"></div>
+
+</div>
+
+<!-- Load script3.js-->
+<script type='text/javascript' src='script3.js'></script>
+
 </body>
 
 </html>
