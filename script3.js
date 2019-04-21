@@ -4,7 +4,7 @@ var _names;
 
 function loadData() {
 
-    d3.csv("presidents.csv",
+    d3.csv("data/presidents.csv",
         function (error, csv) {
             csv.forEach(function (row) {
                 _rows.push(row);
